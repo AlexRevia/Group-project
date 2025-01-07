@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 150, 136, 0.9);
+    padding: 15px 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 20px 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s;
+    padding: 12px 18px;
+    border-radius: 12px;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.user-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: rgba(0, 150, 136, 0.85);
+    color: white;
+    padding: 50px 0;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 0 0 25px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Sections */
+section {
+    margin: 50px auto;
+    padding: 40px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 18px;
+    border: 3px solid #ffcc00;
+}
+
+/* Information Links */
+.links-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.links-container a {
+    background: #ffcc00;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.links-container a:hover {
+    background: #e6b800;
+    transform: scale(1.1);
+}
+
+/* Video Section */
+.videos iframe {
+    display: block;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Quiz Section */
+.quiz form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quiz label {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.quiz input, .quiz select {
+    padding: 14px;
+    width: 60%;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    text-align: center;
+}
+
+.quiz button {
+    padding: 14px 28px;
+    font-size: 22px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.quiz button:hover {
+    background: #e6b800;
+    transform: scale(1.15);
+}
